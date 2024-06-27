@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getIngredients, deleteIngredient } from '../services/api';
 import IngredientForm from '../components/IngredientForm';
 
-const IngredientPage: React.FC = () => {
+const IngredientPage = () => {
   const [ingredients, setIngredients] = useState<any[]>([]);
   const [selectedIngredient, setSelectedIngredient] = useState<any | null>(null);
 

@@ -6,7 +6,7 @@ interface RecipeFormProps {
   onSuccess: () => void;
 }
 
-const RecipeForm: React.FC<RecipeFormProps> = ({ recipe, onSuccess }) => {
+const RecipeForm = ({ recipe , onSuccess } :RecipeFormProps ) => {
   const [formData, setFormData] = useState({
     name: '',
     ingredients: '',

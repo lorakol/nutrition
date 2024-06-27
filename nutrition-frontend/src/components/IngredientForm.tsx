@@ -6,7 +6,7 @@ interface IngredientFormProps {
   onSuccess: () => void;
 }
 
-const IngredientForm: React.FC<IngredientFormProps> = ({ ingredient, onSuccess }) => {
+const IngredientForm = ({ ingredient, onSuccess }: IngredientFormProps) => {
   const [formData, setFormData] = useState({
     name: '',
     protein_per_100g: '',
