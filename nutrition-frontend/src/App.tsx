@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 
 const App = () => {
     return (
+        <div className="app min-h-screen bg-rose-50 text-gray-600 text-lg">
         <Routes>
             <Route path="/" element={<HomePage/>} />
             <Route path='/about' element={<AboutPage/>} />
@@ -13,6 +14,7 @@ const App = () => {
             <Route path='/ingredients' element={<IngredientPage/>} />
             <Route path='/recipes' element={<RecipePage/>} />
         </Routes>
+        </div>
     );
 };
 
