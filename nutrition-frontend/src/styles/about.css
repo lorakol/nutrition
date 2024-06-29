@@ -44,6 +44,7 @@
   font-size: 50px;
   padding-top: 40px;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .center{
@@ -776,10 +777,12 @@ p{
   font-size: 50px;
   padding-top: 40px;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .center{
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .left{
